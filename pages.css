@@ -211,11 +211,11 @@ body[data-theme='light'] .page-hero-overlay {
 }
 
 .gallery-item-tall {
-  grid-row: span 2;
+  grid-row: span 1;
 }
 
 .gallery-item-wide {
-  grid-column: span 2;
+  grid-column: span 1;
 }
 
 .gallery-item-inner {
@@ -226,7 +226,7 @@ body[data-theme='light'] .page-hero-overlay {
 }
 
 .gallery-item-tall .gallery-item-inner {
-  min-height: 584px;
+  min-height: 280px;
 }
 
 .gallery-item img {
