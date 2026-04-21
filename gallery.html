@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery - AMARA Relaxation Center</title>
+  <meta name="description" content="Explore the mystical sanctuary of Amara through our gallery. Discover the ancient beauty and serene atmosphere that awaits.">
+  <meta property="og:title" content="Gallery - AMARA Relaxation Center">
+  <meta property="og:description" content="Explore the mystical sanctuary of Amara through our gallery. Discover the ancient beauty and serene atmosphere that awaits.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="img/opengraph.png">
+  <meta property="og:image:alt" content="AMARA — Oasis of the Eternal Wanderer">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="img/opengraph.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="pages.css">
+</head>
+<body data-theme="dark">
+  <!-- Header -->
+  <header class="header" id="header">
+    <nav class="nav">
+      <a href="/" class="logo">
+        <img src="img/logo.png" alt="Amara logo" class="logo-image">
+        <span class="logo-subtitle">Oasis of the Eternal Wanderer</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/#rituals" class="nav-link">History</a>
+        <a href="/services" class="nav-link">Services</a>
+        <a href="/therapists" class="nav-link">Therapists</a>
+        <a href="/gallery" class="nav-link active">Gallery</a>
+        <a href="/contact" class="nav-link">Contact</a>
+        <a href="/blog" class="nav-link">Blog</a>
+      </div>
+
+      <button class="theme-toggle-btn" id="themeToggleBtn" type="button" aria-label="Switch to light mode">
+        Light
+      </button>
+
+      <a href="https://wa.me/971501234567" class="cta-button desktop-only" target="_blank" rel="noopener">Book Now</a>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+        <svg class="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+        <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </nav>
+
+    <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+    <div class="mobile-nav" id="mobileNav">
+      <div class="mobile-nav-logo">
+        <img src="img/logo.png" alt="" class="mobile-nav-logo-image">
+      </div>
+      <a href="/" class="mobile-nav-link">Home</a>
+      <a href="/services" class="mobile-nav-link">Services</a>
+      <a href="/therapists" class="mobile-nav-link">Therapists</a>
+      <a href="/gallery" class="mobile-nav-link">Gallery</a>
+      <a href="/contact" class="mobile-nav-link">Contact</a>
+      <a href="/blog" class="mobile-nav-link">Blog</a>
+      <button class="theme-toggle-btn mobile-theme-toggle" id="mobileThemeToggleBtn" type="button">
+        Light
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="page-hero-bg" style="background-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/moroccan-bath-XeSTABgX7qKMFfD8tpaA28jun8mEiK.jpg')"></div>
+      <div class="page-hero-overlay"></div>
+      <div class="page-hero-particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+      </div>
+      <div class="page-hero-content">
+        <span class="page-hero-tag">Visual Journey</span>
+        <h1 class="page-hero-title">The Gallery</h1>
+        <p class="page-hero-subtitle">A glimpse into our sanctuary where ancient beauty meets modern tranquility</p>
+      </div>
+      <div class="page-hero-scroll">
+        <span>Explore</span>
+        <div class="scroll-line"><div class="scroll-dot"></div></div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+      <div class="stone-texture"></div>
+      <div class="gallery-glow-left"></div>
+      <div class="gallery-glow-right"></div>
+
+      <div class="container">
+        <!-- Filter Tabs -->
+        <div class="gallery-filter" role="tablist">
+          <button class="gallery-filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="gallery-filter-btn" data-filter="sanctuary" role="tab" aria-selected="false">Sanctuary</button>
+          <button class="gallery-filter-btn" data-filter="treatments" role="tab" aria-selected="false">Treatments</button>
+          <button class="gallery-filter-btn" data-filter="ambiance" role="tab" aria-selected="false">Ambiance</button>
+        </div>
+
+        <!-- Masonry Gallery Grid -->
+        <div class="gallery-masonry" id="galleryGrid">
+          <!-- Row 1 -->
+          <div class="gallery-item gallery-item-tall" data-category="sanctuary">
+            <div class="gallery-item-inner">
+              <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/moroccan-bath-XeSTABgX7qKMFfD8tpaA28jun8mEiK.jpg" alt="Moroccan Bath Chamber" loading="lazy">
+              <div class="gallery-item-overlay">
+                <span class="gallery-item-tag">Sanctuary</span>
+                <h3 class="gallery-item-title">The Bath Chamber</h3>
+              </div>
+              <div class="gallery-item-shine"></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="treatments">
+            <div class="gallery-item-inner">
+              <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hot-stone-ozcMxcP4p2LRpwfWkz6xlxcogUApC0.jpg" alt="Hot Stone Therapy" loading="lazy">
+              <div class="gallery-item-overlay">
+                <span class="gallery-item-tag">Treatment</span>
+                <h3 class="gallery-item-title">Sacred Stones</h3>
+              </div>
+              <div class="gallery-item-shine"></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="ambiance">
+            <div class="gallery-item-inner">
+              <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/deep-tissue-D1EGarHWurusc7dncBgiNhIpKjE5Lf.jpg" alt="Healing Hands" loading="lazy">
+              <div class="gallery-item-overlay">
+                <span class="gallery-item-tag">Ambiance</span>
+                <h3 class="gallery-item-title">Healing Touch</h3>
+              </div>
+              <div class="gallery-item-shine"></div>
+            </div>
+          </div>
+
+          <!-- Row 2 -->
+          <div class="gallery-item gallery-item-wide" data-category="sanctuary">
+            <div class="gallery-item-inner">
+              <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/couple-massage-eQCI4LJu1wMQY76rCsfQ5gD9EAH6ag.jpg" alt="Couple Suite" loading="lazy">
+              <div class="gallery-item-overlay">
+                <span class="gallery-item-tag">Sanctuary</span>
+                <h3 class="gallery-item-title">The Couple Suite</h3>
+              </div>
+              <div class="gallery-item-shine"></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="treatments">
+            <div class="gallery-item-inner">
+              <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/four-hands-Puk08W7r8o1fBXEjfwXtiHEmC1mv6J.jpg" alt="Four Hands Massage" loading="lazy">
+              <div class="gallery-item-overlay">
+                <span class="gallery-item-tag">Treatment</span>
+                <h3 class="gallery-item-title">Four Hands Ritual</h3>
+              </div>
+              <div class="gallery-item-shine"></div>
+            </div>
+          </div>
+
+          <!-- Row 3 -->
+          <div class="gallery-item" data-category="ambiance">
+            <div class="gallery-item-inner">
+              <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/swedish-massage-C2bJ9ZEZfTErQx0yC2a469A6nhSZVx.jpg" alt="Tranquil Moment" loading="lazy">
+              <div class="gallery-item-overlay">
+                <span class="gallery-item-tag">Ambiance</span>
+                <h3 class="gallery-item-title">Eternal Peace</h3>
+              </div>
+              <div class="gallery-item-shine"></div>
+            </div>
+          </div>
+
+          <div class="gallery-item gallery-item-tall" data-category="sanctuary">
+            <div class="gallery-item-inner">
+              <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hot-stone-ozcMxcP4p2LRpwfWkz6xlxcogUApC0.jpg" alt="Treatment Room" loading="lazy">
+              <div class="gallery-item-overlay">
+                <span class="gallery-item-tag">Sanctuary</span>
+                <h3 class="gallery-item-title">The Healing Room</h3>
+              </div>
+              <div class="gallery-item-shine"></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="treatments">
+            <div class="gallery-item-inner">
+              <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/deep-tissue-D1EGarHWurusc7dncBgiNhIpKjE5Lf.jpg" alt="Deep Tissue" loading="lazy">
+              <div class="gallery-item-overlay">
+                <span class="gallery-item-tag">Treatment</span>
+                <h3 class="gallery-item-title">Deep Restoration</h3>
+              </div>
+              <div class="gallery-item-shine"></div>
+            </div>
+          </div>
+
+          <!-- Row 4 -->
+          <div class="gallery-item gallery-item-wide" data-category="ambiance">
+            <div class="gallery-item-inner">
+              <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/moroccan-bath-XeSTABgX7qKMFfD8tpaA28jun8mEiK.jpg" alt="Sacred Atmosphere" loading="lazy">
+              <div class="gallery-item-overlay">
+                <span class="gallery-item-tag">Ambiance</span>
+                <h3 class="gallery-item-title">The Sacred Atmosphere</h3>
+              </div>
+              <div class="gallery-item-shine"></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="sanctuary">
+            <div class="gallery-item-inner">
+              <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/four-hands-Puk08W7r8o1fBXEjfwXtiHEmC1mv6J.jpg" alt="Private Suite" loading="lazy">
+              <div class="gallery-item-overlay">
+                <span class="gallery-item-tag">Sanctuary</span>
+                <h3 class="gallery-item-title">Private Retreat</h3>
+              </div>
+              <div class="gallery-item-shine"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="gallery-lightbox" id="galleryLightbox">
+      <button class="lightbox-close" aria-label="Close lightbox">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <button class="lightbox-nav lightbox-prev" aria-label="Previous image">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M15 18l-6-6 6-6"/>
+        </svg>
+      </button>
+      <button class="lightbox-nav lightbox-next" aria-label="Next image">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M9 18l6-6-6-6"/>
+        </svg>
+      </button>
+      <div class="lightbox-content">
+        <img src="" alt="" class="lightbox-image">
+        <div class="lightbox-caption">
+          <span class="lightbox-tag"></span>
+          <h3 class="lightbox-title"></h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA Section -->
+    <section class="page-cta">
+      <div class="stone-texture"></div>
+      <div class="page-cta-glow"></div>
+      <div class="container">
+        <div class="page-cta-content">
+          <span class="section-tag">Begin Your Journey</span>
+          <h2 class="page-cta-title">Experience the Sanctuary</h2>
+          <p class="page-cta-text">Step into a realm where ancient wisdom meets modern luxury. Your transformation awaits.</p>
+          <a href="/contact" class="hero-btn-primary">
+            <span>Book Your Visit</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img src="img/logo.png" alt="Amara logo" class="footer-logo-image">
+          <p class="footer-tagline">Oasis of the Eternal Wanderer</p>
+        </div>
+
+        <div class="footer-column">
+          <h3 class="footer-column-title">Quick Links</h3>
+          <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/#sanctuary">The Sanctuary</a>
+            <a href="/#rituals">History</a>
+            <a href="/gallery">Gallery</a>
+            <a href="/blog">Blog</a>
+            <a href="https://wa.me/971501234567" target="_blank" rel="noopener">Book Now</a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h3 class="footer-column-title">Massage Services</h3>
+          <div class="footer-links">
+            <a href="/services#classic-massage">Classic Massage</a>
+            <a href="/services#deep-tissue-massage">Deep Tissue Massage</a>
+            <a href="/services#swedish-massage">Swedish Massage</a>
+            <a href="/services#hot-stone-massage">Hot Stone Massage</a>
+            <a href="/services#four-hands-massage">4 Hands Massage</a>
+            <a href="/services#couple-massage">Couple Massage</a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h3 class="footer-column-title">Contacts</h3>
+          <div class="footer-links footer-contacts">
+            <a href="https://www.google.com/maps/place/Amara+relax+center/@24.4932805,54.3672812,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5e6782f16075eb:0xba63e82e7948f1d3!8m2!3d24.4932805!4d54.3698561!16s%2Fg%2F11nb5mz_rx?hl=en" target="_blank" rel="noopener noreferrer">Abu Dhabi, UAE</a>
+            <a href="tel:+971504715070">+971 50 471 5070</a>
+            <a href="mailto:info@amararelaxcenter.ae">info@amararelaxcenter.ae</a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h3 class="footer-column-title">Legal</h3>
+          <div class="footer-links footer-legal-links">
+            <a href="/policy">Policy</a>
+            <a href="/privacy">Privacy</a>
+            <a href="/terms">Terms</a>
+            <a href="/disclaimer">Disclaimer</a>
+            <a href="/faq">FAQ</a>
+            <a href="/cancellation-refund">Cancellation &amp; Refund</a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h3 class="footer-column-title">Social Networks</h3>
+          <div class="footer-links">
+            <a href="https://www.instagram.com/amara.relaxcenter/" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.tiktok.com/@amara.relax.center" target="_blank" rel="noopener">TikTok</a>
+            <a href="https://wa.me/971504715070" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+            <a href="https://t.me/+971504715070" target="_blank" rel="noopener noreferrer">Telegram</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Amara Spa. All rights reserved.</p>
+        <p class="footer-collaboration">Collaboration Effect Spa</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="pages.js"></script>
+</body>
+</html>
