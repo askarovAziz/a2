@@ -956,6 +956,12 @@ body[data-theme='light'] .page-hero-overlay {
     url('img/main1.webp');
 }
 
+body[data-theme='light'] .blog-featured,
+body[data-theme='light'] .blog-card,
+body[data-theme='light'] .topic-chip {
+  background: #ffffff;
+}
+
 [data-animate] {
   opacity: 0;
   transform: translateY(28px);
