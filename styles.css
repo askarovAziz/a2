@@ -187,11 +187,11 @@ body[data-theme='light'] .hero-dior .scroll-text {
 }
 
 body[data-theme='light'] .theme-logo.theme-logo-dark {
-  display: block;
+  display: none;
 }
 
 body[data-theme='light'] .theme-logo.theme-logo-light {
-  display: none;
+  display: block;
 }
 
 .footer-logo-image {
