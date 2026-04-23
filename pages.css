@@ -962,6 +962,12 @@ body[data-theme='light'] .topic-chip {
   background: #ffffff;
 }
 
+body[data-theme='light'] .blog-quote-text {
+  background: #ffffff;
+  color: var(--color-text);
+  border-color: rgba(122, 90, 64, 0.2);
+}
+
 [data-animate] {
   opacity: 0;
   transform: translateY(28px);
