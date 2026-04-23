@@ -83,7 +83,7 @@ body[data-theme='light'] .header .nav-link,
 body[data-theme='light'] .header .theme-toggle-btn,
 body[data-theme='light'] .header .cta-button,
 body[data-theme='light'] .header .mobile-menu-btn {
-  color: #2f2620;
+  color: var(--color-primary);
 }
 
 body[data-theme='light'] .header .theme-toggle-btn,
